@@ -1,0 +1,25 @@
+{
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2019-06-09 19:20:46 +1000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "chaparral": "2019-06-09 19:21:59 +1000",
+      "lavender_fields": "2019-06-09 19:23:14 +1000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2019-06-09 19:22:19 +1000",
+      "plains": "2019-06-09 19:20:22 +1000",
+      "ocean": "2019-06-09 19:22:20 +1000",
+      "roofed_forest": "2019-06-09 19:22:07 +1000",
+      "river": "2019-06-09 19:22:06 +1000"
+    },
+    "done": false
+  }
+}

@@ -1,0 +1,99 @@
+Could Not Find C:\Users\Josiah\Downloads\Enigmatica2Server-1.67d\tmp-forgeinstaller.jar
+Could Not Find C:\Users\Josiah\Downloads\Enigmatica2Server-1.67d\forge-1.12.2.html
+INFO: Download/Install complete... 
+INFO: Checking that settings.cfg exists 
+DEBUG: settings.cfg Found. Logging full contents below: 
+;SETTINGS FOR SERVERSTART SCRIPTS
+;See "serverstart.log" in the LOGS subfolder 
+;For more details/help see: https://github.com/AllTheMods/Server-Scripts
+
+MAX_RAM=4G; 
+JAVA_ARGS=-d64 -server -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary; 
+CRASH_COUNT=5; 
+CRASH_TIMER=600; 
+RUN_FROM_BAD_FOLDER=0; 
+IGNORE_OFFLINE=0; 
+IGNORE_JAVA_CHECK=0; 
+USE_SPONGE=0;
+HIGH_CPU_PRIORITY=0;
+
+MODPACK_NAME=Enigmatica 2;
+MCVER=1.12.2;
+FORGEVER=14.23.5.2836; 
+FORGEURL=https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2836/forge-1.12.2-14.23.5.2836-installer.jar; 
+INFO: Loading variables from settings.cfg  
+DEBUG: Starting variable definitions: 
+DEBUG: MC_SERVER_MAX_RAM=4G 
+DEBUG: MC_SERVER_FORGE_JAR= 
+DEBUG: MC_SERVER_SPONGE_BOOT= 
+DEBUG: MC_SERVER_JVM_ARGS=-Xmx4G -Xms2G -d64 -server -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary 
+DEBUG: MC_SERVER_MAX_CRASH=5 
+DEBUG: MC_SERVER_CRASH_TIMER=600 
+DEBUG: MC_SERVER_IGNORE_OFFLINE=0 
+DEBUG: MC_SERVER_RUN_FROM_BAD_FOLDER=0 
+DEBUG: MC_SERVER_MCVER=1.12.2 
+DEBUG: MC_SERVER_FORGEVER=14.23.5.2836 
+DEBUG: MC_SERVER_FORGESHORT=2836 
+DEBUG: MC_SERVER_FORGEURL=https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2836/forge-1.12.2-14.23.5.2836-installer.jar 
+DEBUG: MC_SERVER_SPONGE=0 
+DEBUG: MC_SERVER_HIGH_PRIORITY=0 
+DEBUG: MC_SERVER_PACKNAME=Enigmatica 2 
+DEBUG: MC_SERVER_SPONGEURL= 
+DEBUG: MC_SERVER_SPONGEBOOTSTRAPURL= 
+DEBUG: MC_SERVER_ERROR_REASON=Unspecified 
+DEBUG: MC_SERVER_TMP_FLAG= 
+DEBUG: MC_SERVER_CRASH_COUNTER=1 
+DEBUG: MC_SERVER_CRASH_YYYYMMDD=20190609 
+DEBUG: MC_SERVER_CRASH_HHMMSS=171029 
+DEBUG: Current directory file listing: 
+ Volume in drive C has no label.
+ Volume Serial Number is 1AC7-603C
+
+ Directory of C:\Users\Josiah\Downloads\Enigmatica2Server-1.67d
+
+06/09/2019  05:12 PM    <DIR>          .
+06/09/2019  05:12 PM    <DIR>          ..
+04/30/2019  07:15 PM    <DIR>          config
+06/09/2019  05:12 PM                13 eula.txt
+04/14/2019  12:09 AM         5,104,156 forge-1.12.2-14.23.5.2836-installer.jar
+06/09/2019  05:12 PM             9,997 forge-1.12.2-14.23.5.2836-installer.jar.log
+06/09/2019  05:12 PM         5,034,429 forge-1.12.2-14.23.5.2836-universal.jar
+06/09/2019  05:12 PM    <DIR>          libraries
+05/02/2018  06:41 AM             3,237 LICENSE.md
+06/09/2019  05:10 PM    <DIR>          logs
+06/09/2019  05:11 PM        30,222,121 minecraft_server.1.12.2.jar
+05/18/2019  02:52 PM    <DIR>          mods
+05/02/2018  06:41 AM            12,200 README.md
+01/30/2019  12:02 AM    <DIR>          schematics
+05/15/2019  02:59 AM    <DIR>          scripts
+04/30/2019  07:19 PM               793 server.properties
+05/02/2018  06:41 AM            44,968 ServerStart.bat
+05/02/2018  06:41 AM            10,198 ServerStartLinux.sh
+04/30/2019  06:40 PM             1,715 SERVER_GUIDE.txt
+05/18/2019  05:17 AM               733 settings.cfg
+              12 File(s)     40,444,560 bytes
+               8 Dir(s)  26,963,406,848 bytes free
+DEBUG: JAVA version output (java -d64 -version): 
+java version "1.8.0_211"
+Java(TM) SE Runtime Environment (build 1.8.0_211-b12)
+INFO: Found 64-bit Java 1.8 
+...64-bit Java 1.8 found! 
+INFO: Checking if current folder is valid... 
+INFO: Checking for basic internet connectivity... 
+Reply from 8.8.8.8: bytes=32 time=5ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=5ms TTL=56
+INFO: Ping of "8.8.8.8" Successfull 
+INFO: Checking for forge/minecraft binaries... 
+File Not Found
+DEBUG: MC_SERVER_SPONGE_BOOT= 
+DEBUG: MC_SERVER_FORGE_JAR=forge-1.12.2-14.23.5.2836-universal.jar 
+Could Not Find C:\Users\Josiah\Downloads\Enigmatica2Server-1.67d\*forge*universal*.jar
+Could Not Find C:\Users\Josiah\Downloads\Enigmatica2Server-1.67d\*sponge*bootstrap*.jar
+INFO: Starting Server... 
+DEBUG: Disabling any spongeforge jar in \mods\ because USE_SPONGE is disabled in settings.cfg 
+File Not Found
+DEBUG: Attempting to execute [ java -Xmx4G -Xms2G -d64 -server -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -jar "C:\Users\Josiah\Downloads\Enigmatica2Server-1.67d\forge-1.12.2-14.23.5.2836-universal.jar" nogui ] 
+INFO: Starting Server... 
+DEBUG: Disabling any spongeforge jar in \mods\ because USE_SPONGE is disabled in settings.cfg 
+File Not Found
+DEBUG: Attempting to execute [ java -Xmx4G -Xms2G -d64 -server -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -jar "C:\Users\Josiah\Downloads\Enigmatica2Server-1.67d\forge-1.12.2-14.23.5.2836-universal.jar" nogui ] 
